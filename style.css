@@ -22,7 +22,7 @@ footer{
     height: 500px;
     display: grid;
     grid-template-columns: repeat(3 , 33.33333333333%);
-    grid-template-rows: 1 , 500px;
+    grid-template-rows: repeat(1 , 700px);
 }
 h1{
     text-align: center;
@@ -50,4 +50,9 @@ footer h2{
     float: top;
     font-size: 20px;
     margin-left: 20px;
+}
+.pFooter{
+    width: 300px;
+    text-align: center;
+    margin-left: 85px;
 }
